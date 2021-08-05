@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "Notebook Samsung",
+      "price": "1.00",
+      "id": 1
+    },
+    {
+      "name": "Mouse RedDragon",
+      "price": "100.00",
+      "id": 2
+    }
+  ]
+}

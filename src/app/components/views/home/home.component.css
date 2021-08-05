@@ -1,0 +1,35 @@
+.mat-table {
+    width: 100%;
+   
+}
+
+.mat-row:hover{
+    background-color:whitesmoke;
+    cursor:pointer;
+}
+
+.addButton{
+    margin: 0.5rem;
+
+}
+
+.mat-fab{
+    margin: 0.1rem;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.th-align{
+    text-align: center;
+}
+
+
+
+
+

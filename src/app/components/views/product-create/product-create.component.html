@@ -1,0 +1,24 @@
+
+<mat-dialog-content [formGroup]="myForm" fxLayout="column" fxLayoutAlign="center center">
+    <h2 mat-dialog-title>New Product</h2>
+    <mat-form-field>
+        <input matInput formControlName="name" placeholder="Name">
+        <mat-hint>Ex: Macbook Air</mat-hint>
+        <mat-error *ngIf="myForm.controls['name'].touched || myForm.controls['name'].hasError('minlength')">Name too short. Insert at least 4 characters.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput formControlName="price" placeholder="Price">
+        <mat-error *ngIf="myForm.controls['price'].touched || myForm.controls['price'].hasError('minlength')">Price too short.Insert at least 2 characters.</mat-error>
+        <mat-error *ngIf="price.errors?.pattern">Insert correct pattern. Ex: 1.0</mat-error>
+    </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="createProduct(myForm.value)" mat-dialog-close="true" [disabled]="!myForm.valid"> Save</button>
+    <button mat-raised-button mat-dialog-close color="warn"> Cancel</button>
+</mat-dialog-actions>
+
+<!-- {{myForm.value | json}} -->
+<!-- {{myForm | json}} -->

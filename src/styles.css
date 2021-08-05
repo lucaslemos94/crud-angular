@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.style-success {
+    color:black;
+    background-color: #81B622
+  }
+
+  .style-success .mat-simple-snackbar-action  {
+    color: black
+  }
+
+  .style-fail {
+    color:black;
+    background-color: #ff0000
+  }
+
+  .style-fail .mat-simple-snackbar-action  {
+    color: black
+  }
