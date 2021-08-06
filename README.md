@@ -14,3 +14,10 @@ Aplicação que simula operações básicas de um CRUD.
  - Na pasta raiz do projeto, execute ```ng serve``` para subir o servidor do front-end
  - Na pasta ```backend``` execute ```npm start``` para subir o JSON server
  - Acesse http://localhost:4200/ no navegador
+
+## Screenshots
+
+![alt text](https://github.com/lucaslemos94/crud-angular/blob/main/images/1.png?raw=true)
+![alt text](https://github.com/lucaslemos94/crud-angular/blob/main/images/2.png?raw=true)
+![alt text](https://github.com/lucaslemos94/crud-angular/blob/main/images/3.png?raw=true)
+![alt text](https://github.com/lucaslemos94/crud-angular/blob/main/images/4.png?raw=true)
