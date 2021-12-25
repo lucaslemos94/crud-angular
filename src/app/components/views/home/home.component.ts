@@ -16,7 +16,7 @@ import { ProductUpdateComponent } from '../product-update/product-update.compone
 export class HomeComponent implements OnInit {
 
   dataSource:any
-  displayedColumns: string[] = ['id', 'name', 'price','action'];
+  displayedColumns: string[] = ['id', 'name', 'description', 'price','action'];
   private configFail: MatSnackBarConfig = {
     
     panelClass: ['style-fail'],
