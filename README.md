@@ -12,7 +12,8 @@ Aplicação que simula operações básicas de um CRUD.
  - Clone o repositório
  - Tenha instalado na máquina o Angular e o Angular CLI, na versão 13.
  - Tenha instalado na máquina o Node.js e o gerenciador de pacotes npm.
- - Na pasta raiz do projeto, abra o terminal e execute ```ng serve``` para subir o servidor do front-end.
+ - Na pasta raiz do projeto, abra o terminal e execute ```npm install``` para instalar as dependências.
+ - Execute ```ng serve``` para subir o servidor do front-end.
  - Na pasta ```backend``` execute ```npm start``` para subir o JSON server.
  - Acesse http://localhost:4200/ no navegador.
 
